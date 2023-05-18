@@ -101,6 +101,7 @@ article .productos {
     font-weight: bold;
     margin: 5px 0;
     padding: 0 10px;
+
 }
 
 footer.container {
@@ -118,4 +119,12 @@ footer.container i {
 
 footer.container .copy {
     text-align: right;
+}
+/** Quienes somos */ 
+.texto {
+    text-align: center;
+    font-size: 2em;
+    margin: 50px 0;
+    color:  #ddd5ca;
+    
 }
