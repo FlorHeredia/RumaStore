@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
 
-  <body>
+  <body id="app">
     <nav class="container">
       <div class="logo">
         <h1><a href="/index.html">Ruma</a></h1>
@@ -173,6 +173,24 @@
       </article>
     </main>
 
+    <article class="container">
+      <h1>Clientes satisfechos</h1>
+
+      <ul class="carrousel">
+        <li class="carrousel-item" v-for="comentario in comentarios" :class="{ 'active': comentario.active }">
+          <img v-if="comentario.picture" :src="comentario.picture.large">
+
+          <div class="carrousel-content">
+            <h3 v-if="comentario.name">{{ comentario.name.first }} {{ comentario.name.last }}</h3>
+
+            <span v-id="comentario.email" class="mail">{{ comentario.email }}</span>
+
+            <p>{{ comentario.message }}</p>
+          </div>
+        </li>
+      </ul>
+    </article>
+
     <footer class="container">
       <div class="social">
         Buscanos en: 
@@ -186,5 +204,8 @@
         Ruma Store © 2023
       </div>
     </footer>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/corrousel-comments.js"></script>
   </body>
 </html>
