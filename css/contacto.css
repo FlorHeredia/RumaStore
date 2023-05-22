@@ -1,3 +1,23 @@
+.contacto-container{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.form{
+    flex: 1;
+    height: 100%;
+    margin-right: 10px; /* Agregado margen derecho */
+    padding: 10px;
+}
+
+.mapa{
+    flex: 1;
+    height: 100%; 
+    padding: 10px;
+    
+}
+
 .formulario{
     display: grid;
     grid-template-columns: 1fr 1fr;
