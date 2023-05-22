@@ -250,8 +250,18 @@ footer.container .copy {
 
 /*celular productos */
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 800px)
 {
+
+    .options ul{
+        min-width: 375px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
     article .productos {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -325,3 +335,28 @@ footer.container .copy {
 
     } */
 }
+
+
+@media screen and (min-width: 800px ){
+
+
+    article .productos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+} 
+
+
+
+@media screen and (min-width: 960px ){
+
+
+    article .productos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+    }
+
+} 
