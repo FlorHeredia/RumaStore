@@ -229,3 +229,84 @@ footer.container .copy {
     border-bottom: solid 1px;
     display: block;
 }
+
+
+/*celular productos */
+
+@media screen and (max-width: 600px)
+{
+    article .productos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+    nav.container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 15px;
+        text-align: center;
+        gap: 10px;
+    }
+
+   /*Clase de API*/
+
+
+   
+   article.espaciado{
+
+    margin-bottom: 120px;
+
+   }
+
+    .carrousel-item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        
+    }
+
+
+    .carrousel-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carrousel-content p{
+        height: 50px;
+    }
+
+
+
+    /* .carrousel-content p {
+       display: none;
+    } */
+
+    /*FOOTER*/
+
+    footer.container {
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+
+    .copy p{
+        text-align: center;
+    }
+
+
+    /* .logo h1 {
+        text-align: center;
+    }
+
+    .options ul{
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+
+    } */
+}
