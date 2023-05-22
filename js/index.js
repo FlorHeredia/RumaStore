@@ -15,7 +15,7 @@ for(let elemento of dato){
                         <h2> ${elemento.name} </h2>
                         <p class="descripcion"> ${elemento.talle}  </p>
                         <div class="precio"> ${elemento.precio} </div>
-                        <button onclick="guardarLocalStorage( '${elemento.name}')">Comprar</button>
+                        <button class="botonCompra" onclick="guardarLocalStorage( '${elemento.name}')">Comprar</button>
                 </div>
             
     `

@@ -4,14 +4,14 @@ createApp({
     data() {
         return {
             comentarios: [{
-                message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate error distinctio perspiciatis. Eius, cupiditate similique. Temporibus voluptates modi laudantium nemo, architecto dolorem maxime pariatur aliquam reprehenderit sequi veritatis inventore soluta.', 
+                message: ' Temporibus voluptates modi laudantium nemo, architecto dolorem maxi.', 
                 active: true
             }, {
-                message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate error distinctio perspiciatis. Eius, cupiditate similique. Temporibus voluptates modi laudantium nemo, architecto dolorem maxime pariatur aliquam reprehenderit sequi veritatis inventore soluta.'
+                message: ' Temporibus voluptates modi laudantium nemo, architecto dolorem maxime  soluta.'
             }, {
-                message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate error distinctio perspiciatis. Eius, cupiditate similique. Temporibus voluptates modi laudantium nemo, architecto dolorem maxime pariatur aliquam reprehenderit sequi veritatis inventore soluta.'
+                message: ' Eius, cupiditate similique. Temporibus voluptates modi laudantium nemo,  veritatis inventore soluta.'
             }, {
-                message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate error distinctio perspiciatis. Eius, cupiditate similique. Temporibus voluptates modi laudantium nemo, architecto dolorem maxime pariatur aliquam reprehenderit sequi veritatis inventore soluta.'
+                message: ' Eius, cupiditate similique. Temporibus voluptates modi laudantium nemo,  veritatis inventore soluta.'
             }]
         }
     }, 

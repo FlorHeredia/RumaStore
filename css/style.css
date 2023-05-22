@@ -65,6 +65,9 @@ article .productos {
 }
 
 .producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     box-sizing: border-box;
     width: 100%;
     border-radius: 7px;
@@ -104,6 +107,20 @@ article .productos {
     margin: 5px 0;
     padding: 0 10px;
 }
+
+
+
+
+/*estilo de compra*/
+
+.botonCompra{
+    width: 150px;
+    height: 45px;
+    border: 2px solid  black;
+    border-radius: 18px;
+
+}
+
 
 .single {
     width: 1024px;
@@ -251,8 +268,6 @@ footer.container .copy {
 
    /*Clase de API*/
 
-
-   
    article.espaciado{
 
     margin-bottom: 120px;
