@@ -54,10 +54,24 @@ nav ul li {
 
 article h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 50px;
     margin: 50px 0;
+    color: #DEB6AB;
+    text-shadow: 3px 4px 2px #AC7088;
+
+}
+article h2 {
+    font-size: 30px;
+    color: #AC7088;
 }
 
+article p {
+    text-align: center;
+    font-size: 25px;
+    margin: 50px 0;
+    color: #A9907E;
+
+}
 article .productos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -327,3 +341,6 @@ article .productos {
     }
 
 } 
+
+
+
