@@ -53,7 +53,7 @@ let dato= [
         "name": "Vestidos largos LIFE FOR PI",
         "talle": "Talle x",
         "precio": "$1100",
-        "imagen": "./imagenes/9.jpg",
+        "imagen": "/RumaStore/imagenes/9.jpg",
     },
     {
         "name": "Vestidos BRISAS corto LIFE FOR PI",
