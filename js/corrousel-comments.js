@@ -4,14 +4,14 @@ createApp({
     data() {
         return {
             comentarios: [{
-                message: ' Temporibus voluptates modi laudantium nemo, architecto dolorem maxi.', 
+                message: ' Buenos precios, ropa de excelente calidad.', 
                 active: true
             }, {
-                message: ' Temporibus voluptates modi laudantium nemo, architecto dolorem maxime  soluta.'
+                message: 'La dueña una genia. Muy atenta con la atención. Gracias Ruma'
             }, {
-                message: ' Eius, cupiditate similique. Temporibus voluptates modi laudantium nemo,  veritatis inventore soluta.'
+                message: ' Me encantó la calidad de la ropa. Los precios super accesibles.'
             }, {
-                message: ' Eius, cupiditate similique. Temporibus voluptates modi laudantium nemo,  veritatis inventore soluta.'
+                message: ' Un lujo todo. Atención, precios, la dueña muy atenta, la calidad de la ropa. Voy a volver pronto Ruma'
             }]
         }
     }, 

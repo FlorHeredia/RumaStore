@@ -16,7 +16,7 @@ let dato= [
     {
         "name": "Short de bengalina",
         "talle": "Talle x",
-        "precio": "800",
+        "precio": "$800",
         "imagen": "/RumaStore/imagenes/3.jpg",
     },
     {
@@ -38,7 +38,7 @@ let dato= [
         "imagen": "/RumaStore/imagenes/6.jpg",
     },
     {
-        "name": "PANTALÓN CHLOE.",
+        "name": "Pantalón chloe.",
         "talle": "Talle x",
         "precio": "$3000",
         "imagen": "/RumaStore/imagenes/7.jpg",
